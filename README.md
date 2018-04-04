@@ -1,5 +1,7 @@
 # UltimateStream
 Tiny webpage scoreboard for use in an OBS browser plugin.
+
+## Preview
 ![alt text](https://raw.githubusercontent.com/starlingfire/UltimateStream/master/src/preview.png "Preview image")
 
 ## Use
