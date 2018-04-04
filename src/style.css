@@ -1,0 +1,56 @@
+table {
+	border:0px;
+	border-collapse: collapse;
+}
+td {
+	border: 3px solid grey;
+	border-collapse: collapse;
+}
+
+span{
+	font-weight:900;
+}
+
+#logo{
+	width:200px;
+	background: transparent url(logo.png) no-repeat left top;
+	-webkit-background-size: contain;
+}
+
+#team1 {
+	color: #ffffff;
+	font-size:30px;
+	background: transparent url(top.png) repeat scroll 0% 50%;
+	width:500px;
+	padding-left:15px;
+}
+
+#team2 {
+	color: #ffffff;
+	font-size:30px;
+	background: transparent url(bottom.png) repeat scroll 0% 50%;
+	padding-left:15px;
+}
+
+#score1{
+	color:#000000;
+	font-size:30px;
+	text-align:center;
+	width:91px;
+}
+#score2{
+	color:#000000;
+	font-size:30px;
+	text-align:center;
+}
+
+#subtext {
+	color: #000000;
+	font-size:20px;
+	padding-left:15px;
+}
+
+#nocell {
+	border-right:0px;
+	border-bottom:0px;
+}

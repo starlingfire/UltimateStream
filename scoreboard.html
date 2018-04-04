@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Scoreboard</title>
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+  <script src="src/script.js"></script>
+  
+</head>
+<body>
+	<div style="width: 500px;">
+	<table>
+	  <tbody>
+		<tr>
+		  <!--//
+		  <td id="logo" rowspan=3></td>
+		  //-->
+		  <td id="team1" style="width: 400px;">Team 1 </td>
+		  <td id="score1" style="width: 70px;">0</td> 
+		</tr>
+		<tr>
+		  <td id="team2">Team 2 </td>
+		  <td id="score2">0</td>
+		</tr>
+		<tr>
+		  <td id="subtext">Subtext</td>
+		  <td id="nocell"></td>
+		</tr>
+	  </tbody>
+	</table>
+	</div>
+
+<br />
+
+Team 1: <input type="text" id="team1src" onchange="updateValue(this)">
+<button type="button" id="score1src" onclick="updateValue(this)" value="inc">+</button>
+<button type="button" id="score1src" onclick="updateValue(this)" value="dec">-</button> <br />
+Team 2: <input type="text" id="team2src" onchange="updateValue(this)">
+<button type="button" id="score2src" onclick="updateValue(this)" value="inc">+</button>
+<button type="button" id="score2src" onclick="updateValue(this)" value="dec">-</button> <br />
+Subtext: <input type="text" id="subtextsrc" onchange="updateValue(this)"><br />
+Debug? <input id="debug" type="checkbox">
+</body></html>
