@@ -8,14 +8,13 @@
   
 </head>
 <body>
-	<div style="width: 500px;">
+	<!--<div style="width: 500px;">-->
+	<div>
 	<table>
 	  <tbody>
 		<tr>
-		  <!--//
-		  <td id="logo" rowspan=3></td>
-		  //-->
-		  <td id="team1" style="width: 400px;">Team 1 </td>
+		  <td id="logo" rowspan=3 style="display:none"><img src="src/logo.png" id="inlinelogo"></td>		  
+		  <td id="team1" style="width: 400px;">Team 1</td>
 		  <td id="score1" style="width: 70px;">0</td> 
 		</tr>
 		<tr>
@@ -24,7 +23,7 @@
 		</tr>
 		<tr>
 		  <td id="subtext">Subtext</td>
-		  <td id="nocell"></td>
+		  <td id="norightnobottom"></td>
 		</tr>
 	  </tbody>
 	</table>
@@ -39,5 +38,6 @@ Team 2: <input type="text" id="team2src" onchange="updateValue(this)">
 <button type="button" id="score2src" onclick="updateValue(this)" value="inc">+</button>
 <button type="button" id="score2src" onclick="updateValue(this)" value="dec">-</button> <br />
 Subtext: <input type="text" id="subtextsrc" onchange="updateValue(this)"><br />
+<button type="button" onclick="toggleLogo()">Toggle Logo</button> <br />
 Debug? <input id="debug" type="checkbox">
 </body></html>

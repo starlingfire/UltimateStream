@@ -1,3 +1,10 @@
+body{
+	/* Uncomment below for stream-like preview */
+	
+	/*
+		background-image:url(samplestream.png);
+	*/
+}
 table {
 	border:0px;
 	border-collapse: collapse;
@@ -12,9 +19,18 @@ span{
 }
 
 #logo{
-	width:200px;
-	background: transparent url(logo.png) no-repeat left top;
+	width:175px;
+	/* Can change "white" to "transparent" if needed */
+	background: white no-repeat center center;
 	-webkit-background-size: contain;
+	border-top:0px;
+	border-left:0px;
+	border-bottom:0px;
+}
+
+#inlinelogo{
+	width:175px;
+	margin:10px;
 }
 
 #team1 {
@@ -34,23 +50,27 @@ span{
 
 #score1{
 	color:#000000;
+	background-color:#ffffff;
 	font-size:30px;
 	text-align:center;
 	width:91px;
 }
 #score2{
 	color:#000000;
+	background-color:#ffffff;
 	font-size:30px;
 	text-align:center;
 }
 
 #subtext {
 	color: #000000;
+	background-color:#ffffff;
 	font-size:20px;
 	padding-left:15px;
 }
 
-#nocell {
+#norightnobottom {
 	border-right:0px;
 	border-bottom:0px;
 }
+
