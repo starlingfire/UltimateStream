@@ -1,5 +1,6 @@
 # UltimateStream
 Tiny webpage scoreboard for use in an OBS browser plugin.
+![alt text](https://raw.githubusercontent.com/starlingfire/UltimateStream/master/src/preview.png "Preview image")
 
 ## Use
 1. Download the project zip and extract locally
